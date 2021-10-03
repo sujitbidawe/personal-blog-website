@@ -1,0 +1,90 @@
+/* 
+primary-text-color: #000;
+secondary-text-color: #fff
+dark green: #00701a
+light-green: #43a047
+lighter-green: #76d275;
+off-white: #f0ede6 */
+
+html,
+body,
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #43a047;
+}
+
+body > * {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 500;
+    color: #2b394a;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-areas: 
+    "hd hd"
+    "main main"
+    "ft ft";
+    grid-column-gap: 0;
+    grid-row-gap: 15px;
+}
+    
+.head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 100px;
+    grid-area: hd;
+    background-color: #00701a;
+}
+
+.header-left-panel,
+.header-right-panel {
+    display: flex;
+}
+
+.header-left-panel {
+    padding-left: 20px;
+}
+
+.header-right-panel {
+    padding-right: 20px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+}
+
+a {
+    color: #fff;
+}
+
+h3,
+h4 {
+    color: #fff;
+    font-weight: 500;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.content-container {
+    grid-area: main;
+}
