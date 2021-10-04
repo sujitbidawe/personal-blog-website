@@ -104,6 +104,14 @@ h3 {
     width: 400px;
 }
 
+.title {
+    position: absolute;
+    display: inline;
+    top: 150px;
+    color: var(--primary-text);
+    font-size: 64px;
+}
+
 .cards-container {
     display: grid;
     grid-template-columns: 1fr 350px 350px 1fr;
@@ -142,7 +150,7 @@ h3 {
     grid-area: r1c2;
 }
 
-#deorital {
+#deoriatal {
     grid-area: r1c3;
 }
 
@@ -152,6 +160,13 @@ h3 {
 
 #rupin {
     grid-area: r2c3;
+}
+
+.blog-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
