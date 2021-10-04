@@ -102,3 +102,53 @@ h3 {
     font-size: 24px;
     width: 400px;
 }
+
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr 350px 350px 1fr;
+    grid-template-rows: 250px 250px;
+    grid-template-areas: 
+    "r1c1 r1c2 r1c3 r1c4"
+    "r2c1 r2c2 r2c3 r2c4";
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin-top: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--primary-color);
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.8);
+}
+
+.card > a {
+    color: var(--primary-text);
+    font-size: 24px;
+}
+
+.card-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+}
+
+#kedarkantha {
+    grid-area: r1c2;
+}
+
+#deorital {
+    grid-area: r1c3;
+}
+
+#tarsar {
+    grid-area: r2c2;
+}
+
+#rupin {
+    grid-area: r2c3;
+}
