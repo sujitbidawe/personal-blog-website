@@ -32,7 +32,6 @@ body > * {
     "main main"
     "ft ft";
     grid-column-gap: 0;
-    grid-row-gap: 15px;
 }
     
 .head {
@@ -41,6 +40,7 @@ body > * {
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    z-index: 10;
     top: 0;
     height: 100px;
     grid-area: hd;
@@ -86,4 +86,19 @@ h3 {
 
 .content-container {
     grid-area: main;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+}
+
+.intro {
+    position: absolute;
+    display: inline;
+    margin: 50px;
+    right: 0;
+    color: var(--secondary-text);
+    font-size: 24px;
+    width: 400px;
 }
