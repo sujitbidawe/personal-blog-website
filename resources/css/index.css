@@ -4,6 +4,7 @@
     --primary-color: #808e95;
     --secondary-color: #b0bec5;
     --tertiary-color: #e2f1f8;
+    --footer-background: #4e585d;
 }
 
 html,
@@ -151,4 +152,16 @@ h3 {
 
 #rupin {
     grid-area: r2c3;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    grid-area: ft;
+    background-color: var(--footer-background);
+    margin-top: 50px;
 }
