@@ -1,0 +1,23 @@
+@import "./../../../css/index.css";
+
+.subscribe-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-input {
+    height: 34px;
+    width: 340px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-size: 20px;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.8);
+    border: none;
+}
+
+.email-input::placeholder {
+    text-transform: capitalize;
+}

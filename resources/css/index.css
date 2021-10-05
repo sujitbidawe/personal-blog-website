@@ -187,3 +187,14 @@ p {
 .avatar {
     margin-left: -10px;
 }
+
+.primary-button {
+    height: 34px;
+    padding: 0 25px;
+    border-radius: 34px;
+    color: var(--secondary-text);
+    font-size: 20px;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.8);
+    border: none;
+    text-transform: uppercase;
+}
