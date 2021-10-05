@@ -183,3 +183,7 @@ p {
     color: var(--secondary-text);
     max-width: 300px;
 }
+
+.avatar {
+    margin-left: -10px;
+}
