@@ -1,0 +1,26 @@
+.head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    height: 100px;
+    grid-area: hd;
+    border-bottom: 1px solid var(--primary-text);
+    background-color: var(--primary-color)
+}
+
+.header-left-panel,
+.header-right-panel {
+    display: flex;
+}
+
+.header-left-panel {
+    padding-left: 20px;
+}
+
+.header-right-panel {
+    padding-right: 20px;
+}
