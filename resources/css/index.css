@@ -199,3 +199,7 @@ p {
     border: none;
     text-transform: uppercase;
 }
+
+.social-media-icon {
+    text-decoration: none;
+}
