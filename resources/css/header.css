@@ -17,6 +17,10 @@
     display: flex;
 }
 
+.nav-link {
+    margin: 0 10px 0 10px;
+}
+
 .header-left-panel {
     padding-left: 20px;
 }
