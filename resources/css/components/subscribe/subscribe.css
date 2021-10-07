@@ -28,3 +28,17 @@
         margin-bottom: 40px;
     }
 }
+
+@media screen and (max-width: 375px) {
+
+    .email-input {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    
+    .email-input {
+        width: 250px;
+    }
+}
