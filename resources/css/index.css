@@ -186,6 +186,10 @@ p {
     text-decoration: none;
 }
 
+.ml-10 {
+    margin-left: 10px;
+}
+
 @media screen and (max-width: 768px) {
 
     .container {
