@@ -1,4 +1,5 @@
-@import "./../../../css/index.css";
+@import url("./../../index.css");
+@import url("./../../pages.css");
 
 .title {
     color: var(--secondary-text);
