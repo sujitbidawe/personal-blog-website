@@ -225,7 +225,8 @@ p {
     }
 
     .card-image {
-        height: -webkit-fill-available;
+        height: 100%;
+        max-height: 185px;
     }
 
     #kedarkantha {
