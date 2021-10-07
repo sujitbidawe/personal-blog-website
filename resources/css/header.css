@@ -6,7 +6,8 @@
     position: fixed;
     z-index: 10;
     top: 0;
-    height: 100px;
+    min-height: 100px;
+    height: fit-content;
     grid-area: hd;
     border-bottom: 1px solid var(--primary-text);
     background-color: var(--primary-color)
