@@ -197,6 +197,11 @@ p {
         "ft";
     }
 
+    .content-container {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
     .background{
         width: 100%;
         height: auto;
@@ -244,7 +249,7 @@ p {
         flex-direction: column;
         justify-self: center;
         align-items: center;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 
     .author-info {

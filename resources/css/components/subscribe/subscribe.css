@@ -24,10 +24,6 @@
 
 @media screen and (max-width: 768px) {
     
-    .content-container {
-        justify-content: center;
-    }
-
     .about {
         margin-bottom: 40px;
     }
