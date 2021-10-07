@@ -53,10 +53,6 @@ h3 {
     font-weight: 500;
 }
 
-.content-container {
-    grid-area: main;
-}
-
 .background{
     width: 100%;
     height: 100%;
@@ -146,24 +142,8 @@ h3 {
     margin-top: 20px;
 }
 
-.link-section {
-    display: flex;
-    align-items: center;
-}
-
-.back-arrow {
-    height: 35px;
-    width: 35px;
-    filter: invert(100%);
-    margin-right: 10px;
-}
-
-.back-link {
-    display: flex;
-    align-items: center;
-}
-
 .content-container {
+    grid-area: main;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -228,7 +208,6 @@ p {
         margin: auto;
     }
     
-    
     .cards-container {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr);
@@ -254,5 +233,45 @@ p {
     
     #rupin {
         grid-area: r4c1;
+    }
+
+    .blog-inner-content {
+        flex-direction: column;
+    }
+
+    .author-desc {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .author-info {
+        text-align: center;
+    }
+
+    p {
+        width: fit-content;
+        margin: 0 20px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+
+    .intro {
+        font-size: 20px;
     }
 }

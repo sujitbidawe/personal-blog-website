@@ -30,9 +30,35 @@
     padding-right: 20px;
 }
 
+.link-section {
+    display: flex;
+    align-items: center;
+}
+
+.back-arrow {
+    height: 35px;
+    width: 35px;
+    filter: invert(100%);
+    margin-right: 10px;
+}
+
+.back-link {
+    display: flex;
+    align-items: center;
+}
+
 @media screen and (max-width: 768px) {
+
+    .head {
+        justify-content: space-around;
+    }
 
     .header-right-panel {
         flex-direction: column;
+    }
+
+    .back-arrow {
+        width: 25px;
+        height: 25px;
     }
 }
