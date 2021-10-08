@@ -211,6 +211,10 @@ p {
     margin-top: 5px;
 }
 
+.citation {
+    display: contents;
+}
+
 @media screen and (max-width: 768px) {
 
     .container {
